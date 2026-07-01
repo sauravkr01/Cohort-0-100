@@ -8,8 +8,21 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "This repository contains my learning and practice files from the Cohort 0-100 journey.",
   "dependencies": {
-    "express": "^5.2.1"
-  }
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.3",
+    "nodemon": "^3.1.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sauravkr01/Cohort-0-100.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sauravkr01/Cohort-0-100/issues"
+  },
+  "homepage": "https://github.com/sauravkr01/Cohort-0-100#readme"
 }
