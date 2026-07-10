@@ -7,9 +7,10 @@ const User = mongoose.model("Users", {
   email: String,
   password: String,
 });
-
 const user = new User({
-    name: "saurav" , email: "saurav@gmail.com" , password: "123"
-})
+  name: "saurav",
+  email: "saurav@gmail.com",
+  password: "123",
+});
 
 user.save();
