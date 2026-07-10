@@ -1,13 +1,17 @@
 # Dependencies
 node_modules/
 
-.vsCode
+# VS Code settings
+.vscode/
 
 # Environment variables
 .env
+.env.*
+!.env.example
 
 # Logs
 *.log
+logs/
 
 # OS files
 .DS_Store
