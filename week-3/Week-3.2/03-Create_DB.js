@@ -1,8 +1,6 @@
 const mongoose = require("mongoose");
-
-mongoose.connect(
-  "REMOVED_MONGODB_URI",
-);
+require("dotenv").config();
+mongoose.connect(process.env.MONGO_URI + "user_appNew");
 
 const User = mongoose.model("Users", {
   name: String,
